@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ToolRegFB</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ToolRegFB\exe.licenses" />
+    <None Remove="-b91ffa5a-7116-4324-a925-8dae0" />
+    <EmbeddedResource Include="ToolRegFB\exe.licenses" />
+    <EmbeddedResource Include="-b91ffa5a-7116-4324-a925-8dae0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>bin\Debug\net461\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceId">
+      <HintPath>bin\Debug\net461\DeviceId.dll</HintPath>
+    </Reference>
+    <Reference Include="EAGetMail">
+      <HintPath>bin\Debug\net461\EAGetMail.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>bin\Debug\net461\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Http">
+      <HintPath>bin\Debug\net461\Http.dll</HintPath>
+    </Reference>
+    <Reference Include="KAutoHelper">
+      <HintPath>bin\Debug\net461\KAutoHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode">
+      <HintPath>bin\Debug\net461\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Debug\net461\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Otp.NET">
+      <HintPath>bin\Debug\net461\Otp.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>bin\Debug\net461\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SmorcIRL.TempMail">
+      <HintPath>bin\Debug\net461\SmorcIRL.TempMail.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http">
+      <HintPath>RabbitSocialTools_v150\RabbitSocialTools_v150\RabbitSocialTools\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="WebDriver">
+      <HintPath>bin\Debug\net461\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>bin\Debug\net461\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="xNet">
+      <HintPath>bin\Debug\net461\xNet.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>bin\Debug\net461\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
